@@ -5,7 +5,7 @@ It uses AutoHotKey shortcuts to start and restart the server without having to d
 It is recommended to use LiveSplit to keep track of your time as you are running.
 
 The only real custom work done in this repo is the configuration in `paper.yml`, `bukkit.yml`, and `server.properties`;
-the AHK script; and the batch files `run.bat` and `run-noDelete.bat`.
+the `minecraftServerShortcuts.ahk` AHK script; and the batch files `run.bat` and `run-noDelete.bat`.
 The rest of the files are included for convenience.
 
 ## Setup
@@ -17,9 +17,9 @@ The rest of the files are included for convenience.
 
 ## Usage
 Follow these steps at the beginning of each session
-1. Open up LiveSplit and import the layout file from this repo.
-2. Run the `stop+altf4.ahk` script from this repo to register the shortcuts for starting and restarting the server
-    - Optionally, set this script to run on startup
+1. Open up LiveSplit and import the `minecraftTimerLiveSplit.lsl` layout file from this repo.
+2. Run the `minecraftServerShortcuts.ahk` script to register the shortcuts for starting and restarting the server
+    - Optionally, set this script to run on Windows startup
 3. Use <kbd>Alt</kbd>+<kbd>PgUp</kbd> to start the server for the first time.
 4. When you're done with the seed or world, use <kbd>Alt</kbd>+<kbd>PgDn</kbd> to restart the server.
 5. If you ever need to stop the server but you don't want to lose the world, type `stop` in the server console.
